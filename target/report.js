@@ -69,8 +69,7 @@ formatter.match({
   "location": "AddCustomerSteps.the_user_is_filling_all_the_details(DataTable)"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_the_details(AddCustomerSteps.java:40)\r\n\tat ✽.The user is filling all the details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:13)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user click on submit button",
@@ -80,7 +79,7 @@ formatter.match({
   "location": "AddCustomerSteps.the_user_click_on_submit_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user should see the customer id",
@@ -90,7 +89,7 @@ formatter.match({
   "location": "AddCustomerSteps.the_user_should_see_the_customer_id()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -176,8 +175,7 @@ formatter.match({
   "location": "AddCustomerSteps.the_user_is_filling_all_details(DataTable)"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_details(AddCustomerSteps.java:49)\r\n\tat ✽.The user is filling all details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:21)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user click on submit button",
@@ -187,7 +185,7 @@ formatter.match({
   "location": "AddCustomerSteps.the_user_click_on_submit_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user should see the customer id",
@@ -197,7 +195,7 @@ formatter.match({
   "location": "AddCustomerSteps.the_user_should_see_the_customer_id()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

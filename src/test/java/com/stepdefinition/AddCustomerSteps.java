@@ -1,5 +1,7 @@
 package com.stepdefinition;
 
+import static org.junit.Assert.assertTrue;
+
 import java.util.List;
 import java.util.Map;
 
@@ -8,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.objectrepository.AddCustomerPage;
+import com.objectrepository.CustomerIdDisplayPage;
 import com.objectrepository.TelecomHomePage;
 import com.resource.BaseClass;
 
@@ -21,7 +24,7 @@ public class AddCustomerSteps extends BaseClass {
 		
 		TelecomHomePage home=new TelecomHomePage();
 		AddCustomerPage cust=new AddCustomerPage();
-		
+		CustomerIdDisplayPage id=new CustomerIdDisplayPage();
 		static WebDriver driver;
 		@Given("The user is in telecom page")
 		public void the_user_is_in_telecom_page() {
@@ -64,7 +67,8 @@ public class AddCustomerSteps extends BaseClass {
 
 		@Then("The user should see the customer id")
 		public void the_user_should_see_the_customer_id() {
-			Assert.assertTrue(driver.findElement(By.xpath("(//td[@align='center'])[2]")).isDisplayed());
+			//Assert.assertTrue(driver.findElement(By.xpath("(//td[@align='center'])[2]")).isDisplayed());
+			Assert.assertTrue(id.getCustIdPage().isDisplayed());
 		}
 	
 

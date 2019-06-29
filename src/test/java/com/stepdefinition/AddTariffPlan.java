@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.objectrepository.AddTariffPage;
+import com.objectrepository.CustomerIdDisplayPage;
 import com.objectrepository.TelecomHomePage;
 import com.resource.BaseClass;
 
@@ -20,6 +21,7 @@ public class AddTariffPlan extends BaseClass {
 	
 	TelecomHomePage home=new TelecomHomePage();
 	AddTariffPage tariff=new AddTariffPage();
+	CustomerIdDisplayPage id=new CustomerIdDisplayPage();
 	
 	
 	static WebDriver driver;
@@ -66,7 +68,8 @@ btn(home.getAddTariffButton());
 
 	@Then("the user is displayed as congratulation you add tariff plan")
 	public void the_user_is_displayed_as_congratulation_you_add_tariff_plan() {
-		 Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='Congratulation you add Tariff Plan']")).isDisplayed());
+	//	 Assert.assertTrue(driver.findElement(By.xpath("//h2[text()='Congratulation you add Tariff Plan']")).isDisplayed());
+	Assert.assertTrue(id.getTariffAdded().isDisplayed());
 	}
 
 

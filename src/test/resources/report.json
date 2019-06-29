@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4245063625,
+              "duration": 4719023675,
               "status": "passed"
             },
             "line": 7,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2971304722,
+              "duration": 3421355177,
               "status": "passed"
             },
             "line": 8,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 3169341914,
+              "duration": 2953924272,
               "status": "passed"
             },
             "match": {
@@ -54,7 +54,7 @@
         "after": [
           {
             "result": {
-              "duration": 649614219,
+              "duration": 656304788,
               "status": "passed"
             },
             "match": {
@@ -67,9 +67,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_the_details(AddCustomerSteps.java:40)\r\n\tat ✽.The user is filling all the details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:13)\r\n",
-              "duration": 433360826,
-              "status": "failed"
+              "duration": 1306969471,
+              "status": "passed"
             },
             "line": 13,
             "name": "The user is filling all the details",
@@ -91,8 +90,8 @@
           },
           {
             "result": {
-              "duration": 10931,
-              "status": "skipped"
+              "duration": 2729501330,
+              "status": "passed"
             },
             "line": 15,
             "name": "The user click on submit button",
@@ -103,8 +102,8 @@
           },
           {
             "result": {
-              "duration": 5994,
-              "status": "skipped"
+              "duration": 53682025,
+              "status": "passed"
             },
             "line": 16,
             "name": "The user should see the customer id",
@@ -132,7 +131,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5598053836,
+              "duration": 4568397074,
               "status": "passed"
             },
             "line": 7,
@@ -144,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 2288196106,
+              "duration": 2206152105,
               "status": "passed"
             },
             "line": 8,
@@ -160,7 +159,7 @@
         "before": [
           {
             "result": {
-              "duration": 2201936433,
+              "duration": 2096395199,
               "status": "passed"
             },
             "match": {
@@ -175,7 +174,7 @@
         "after": [
           {
             "result": {
-              "duration": 683492264,
+              "duration": 702614653,
               "status": "passed"
             },
             "match": {
@@ -188,9 +187,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_details(AddCustomerSteps.java:49)\r\n\tat ✽.The user is filling all details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:21)\r\n",
-              "duration": 1957378,
-              "status": "failed"
+              "duration": 793250563,
+              "status": "passed"
             },
             "line": 21,
             "name": "The user is filling all details",
@@ -233,8 +231,8 @@
           },
           {
             "result": {
-              "duration": 8110,
-              "status": "skipped"
+              "duration": 2322311473,
+              "status": "passed"
             },
             "line": 27,
             "name": "The user click on submit button",
@@ -245,8 +243,8 @@
           },
           {
             "result": {
-              "duration": 7053,
-              "status": "skipped"
+              "duration": 55029373,
+              "status": "passed"
             },
             "line": 28,
             "name": "The user should see the customer id",
@@ -289,7 +287,7 @@
         "before": [
           {
             "result": {
-              "duration": 2248940297,
+              "duration": 2132510208,
               "status": "passed"
             },
             "match": {
@@ -304,7 +302,7 @@
         "after": [
           {
             "result": {
-              "duration": 599496745,
+              "duration": 633375529,
               "status": "passed"
             },
             "match": {
@@ -317,7 +315,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6465537492,
+              "duration": 3229792591,
               "status": "passed"
             },
             "line": 8,
@@ -329,7 +327,7 @@
           },
           {
             "result": {
-              "duration": 2761389622,
+              "duration": 1671935936,
               "status": "passed"
             },
             "line": 9,
@@ -341,7 +339,7 @@
           },
           {
             "result": {
-              "duration": 500138402,
+              "duration": 869422484,
               "status": "passed"
             },
             "line": 10,
@@ -383,7 +381,7 @@
           },
           {
             "result": {
-              "duration": 1986461618,
+              "duration": 1581925923,
               "status": "passed"
             },
             "line": 11,
@@ -395,7 +393,7 @@
           },
           {
             "result": {
-              "duration": 53518467,
+              "duration": 41149672,
               "status": "passed"
             },
             "line": 12,
@@ -419,7 +417,7 @@
         "before": [
           {
             "result": {
-              "duration": 2279351762,
+              "duration": 2110754459,
               "status": "passed"
             },
             "match": {
@@ -434,7 +432,7 @@
         "after": [
           {
             "result": {
-              "duration": 624266336,
+              "duration": 631393471,
               "status": "passed"
             },
             "match": {
@@ -447,7 +445,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6557594897,
+              "duration": 3929223115,
               "status": "passed"
             },
             "line": 8,
@@ -459,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 3327230471,
+              "duration": 2607808698,
               "status": "passed"
             },
             "line": 9,
@@ -471,7 +469,7 @@
           },
           {
             "result": {
-              "duration": 588644600,
+              "duration": 717644943,
               "status": "passed"
             },
             "line": 10,
@@ -513,7 +511,7 @@
           },
           {
             "result": {
-              "duration": 1528258914,
+              "duration": 1898831075,
               "status": "passed"
             },
             "line": 11,
@@ -525,7 +523,7 @@
           },
           {
             "result": {
-              "duration": 84969800,
+              "duration": 82874814,
               "status": "passed"
             },
             "line": 12,
@@ -549,7 +547,7 @@
         "before": [
           {
             "result": {
-              "duration": 2349090970,
+              "duration": 2163392033,
               "status": "passed"
             },
             "match": {
@@ -564,7 +562,7 @@
         "after": [
           {
             "result": {
-              "duration": 558644991,
+              "duration": 655037836,
               "status": "passed"
             },
             "match": {
@@ -577,7 +575,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7087002638,
+              "duration": 3445032687,
               "status": "passed"
             },
             "line": 21,
@@ -589,7 +587,7 @@
           },
           {
             "result": {
-              "duration": 2507510922,
+              "duration": 20283580753,
               "status": "passed"
             },
             "line": 22,
@@ -601,7 +599,7 @@
           },
           {
             "result": {
-              "duration": 461733459,
+              "duration": 394594033,
               "status": "passed"
             },
             "line": 23,
@@ -626,7 +624,7 @@
           },
           {
             "result": {
-              "duration": 4230721628,
+              "duration": 3212523537,
               "status": "passed"
             },
             "line": 25,
@@ -638,7 +636,7 @@
           },
           {
             "result": {
-              "duration": 59994633,
+              "duration": 35120630,
               "status": "passed"
             },
             "line": 26,

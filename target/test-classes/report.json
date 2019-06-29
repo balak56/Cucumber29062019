@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4245063625,
+              "duration": 5648264420,
               "status": "passed"
             },
             "line": 7,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2971304722,
+              "duration": 2602719733,
               "status": "passed"
             },
             "line": 8,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 3169341914,
+              "duration": 3004649605,
               "status": "passed"
             },
             "match": {
@@ -54,7 +54,7 @@
         "after": [
           {
             "result": {
-              "duration": 649614219,
+              "duration": 638439812,
               "status": "passed"
             },
             "match": {
@@ -67,9 +67,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_the_details(AddCustomerSteps.java:40)\r\n\tat ✽.The user is filling all the details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:13)\r\n",
-              "duration": 433360826,
-              "status": "failed"
+              "duration": 837269829,
+              "status": "passed"
             },
             "line": 13,
             "name": "The user is filling all the details",
@@ -91,8 +90,8 @@
           },
           {
             "result": {
-              "duration": 10931,
-              "status": "skipped"
+              "duration": 2657054451,
+              "status": "passed"
             },
             "line": 15,
             "name": "The user click on submit button",
@@ -103,8 +102,9 @@
           },
           {
             "result": {
-              "duration": 5994,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression \"(//td[@align\u003d\u0027center\u0027])[2]\" because of the following error:\nTypeError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The result is not a node set, and therefore cannot be converted to the desired type.\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-CVP2QA3V\u0027, ip: \u0027192.168.43.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_192\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\93ksr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54555}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 2133426ede04a1bbb2626e94796edf45\n*** Element info: {Using\u003dxpath, value\u003d\"(//td[@align\u003d\u0027center\u0027])[2]\"}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_should_see_the_customer_id(AddCustomerSteps.java:71)\r\n\tat ✽.The user should see the customer id(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:16)\r\n",
+              "duration": 64592692,
+              "status": "failed"
             },
             "line": 16,
             "name": "The user should see the customer id",
@@ -132,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5598053836,
+              "duration": 3610021368,
               "status": "passed"
             },
             "line": 7,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 2288196106,
+              "duration": 2055492359,
               "status": "passed"
             },
             "line": 8,
@@ -160,7 +160,7 @@
         "before": [
           {
             "result": {
-              "duration": 2201936433,
+              "duration": 2152822345,
               "status": "passed"
             },
             "match": {
@@ -175,7 +175,7 @@
         "after": [
           {
             "result": {
-              "duration": 683492264,
+              "duration": 636167550,
               "status": "passed"
             },
             "match": {
@@ -188,9 +188,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_details(AddCustomerSteps.java:49)\r\n\tat ✽.The user is filling all details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:21)\r\n",
-              "duration": 1957378,
-              "status": "failed"
+              "duration": 679830321,
+              "status": "passed"
             },
             "line": 21,
             "name": "The user is filling all details",
@@ -233,8 +232,8 @@
           },
           {
             "result": {
-              "duration": 8110,
-              "status": "skipped"
+              "duration": 2355462386,
+              "status": "passed"
             },
             "line": 27,
             "name": "The user click on submit button",
@@ -245,8 +244,9 @@
           },
           {
             "result": {
-              "duration": 7053,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression \"(//td[@align\u003d\u0027center\u0027])[2]\" because of the following error:\nTypeError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The result is not a node set, and therefore cannot be converted to the desired type.\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-CVP2QA3V\u0027, ip: \u0027192.168.43.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_192\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\93ksr\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54613}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: d1dc65b6c08b7b1824969cfe330c4698\n*** Element info: {Using\u003dxpath, value\u003d\"(//td[@align\u003d\u0027center\u0027])[2]\"}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_should_see_the_customer_id(AddCustomerSteps.java:71)\r\n\tat ✽.The user should see the customer id(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:28)\r\n",
+              "duration": 36966932,
+              "status": "failed"
             },
             "line": 28,
             "name": "The user should see the customer id",
@@ -289,7 +289,7 @@
         "before": [
           {
             "result": {
-              "duration": 2248940297,
+              "duration": 2244069339,
               "status": "passed"
             },
             "match": {
@@ -304,7 +304,7 @@
         "after": [
           {
             "result": {
-              "duration": 599496745,
+              "duration": 632959089,
               "status": "passed"
             },
             "match": {
@@ -317,7 +317,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6465537492,
+              "duration": 4848393125,
               "status": "passed"
             },
             "line": 8,
@@ -329,7 +329,7 @@
           },
           {
             "result": {
-              "duration": 2761389622,
+              "duration": 2011894469,
               "status": "passed"
             },
             "line": 9,
@@ -341,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 500138402,
+              "duration": 913151548,
               "status": "passed"
             },
             "line": 10,
@@ -383,7 +383,7 @@
           },
           {
             "result": {
-              "duration": 1986461618,
+              "duration": 1897765468,
               "status": "passed"
             },
             "line": 11,
@@ -395,8 +395,9 @@
           },
           {
             "result": {
-              "duration": 53518467,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddTariffPlan.the_user_is_displayed_as_congratulation_you_add_tariff_plan(AddTariffPlan.java:69)\r\n\tat ✽.the user is displayed as congratulation you add tariff plan(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddTariff.feature:12)\r\n",
+              "duration": 300077,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user is displayed as congratulation you add tariff plan",
@@ -419,7 +420,7 @@
         "before": [
           {
             "result": {
-              "duration": 2279351762,
+              "duration": 2247973512,
               "status": "passed"
             },
             "match": {
@@ -434,7 +435,7 @@
         "after": [
           {
             "result": {
-              "duration": 624266336,
+              "duration": 647829643,
               "status": "passed"
             },
             "match": {
@@ -447,7 +448,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6557594897,
+              "duration": 4476735756,
               "status": "passed"
             },
             "line": 8,
@@ -459,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 3327230471,
+              "duration": 2066367413,
               "status": "passed"
             },
             "line": 9,
@@ -471,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 588644600,
+              "duration": 482361404,
               "status": "passed"
             },
             "line": 10,
@@ -513,7 +514,7 @@
           },
           {
             "result": {
-              "duration": 1528258914,
+              "duration": 1125914512,
               "status": "passed"
             },
             "line": 11,
@@ -525,8 +526,9 @@
           },
           {
             "result": {
-              "duration": 84969800,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddTariffPlan.the_user_is_displayed_as_congratulation_you_add_tariff_plan(AddTariffPlan.java:69)\r\n\tat ✽.the user is displayed as congratulation you add tariff plan(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddTariff.feature:12)\r\n",
+              "duration": 257058,
+              "status": "failed"
             },
             "line": 12,
             "name": "the user is displayed as congratulation you add tariff plan",
@@ -549,7 +551,7 @@
         "before": [
           {
             "result": {
-              "duration": 2349090970,
+              "duration": 2137887261,
               "status": "passed"
             },
             "match": {
@@ -564,7 +566,7 @@
         "after": [
           {
             "result": {
-              "duration": 558644991,
+              "duration": 665969661,
               "status": "passed"
             },
             "match": {
@@ -577,7 +579,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7087002638,
+              "duration": 4378724515,
               "status": "passed"
             },
             "line": 21,
@@ -589,7 +591,7 @@
           },
           {
             "result": {
-              "duration": 2507510922,
+              "duration": 2048492916,
               "status": "passed"
             },
             "line": 22,
@@ -601,7 +603,7 @@
           },
           {
             "result": {
-              "duration": 461733459,
+              "duration": 709625027,
               "status": "passed"
             },
             "line": 23,
@@ -626,7 +628,7 @@
           },
           {
             "result": {
-              "duration": 4230721628,
+              "duration": 1713057752,
               "status": "passed"
             },
             "line": 25,
@@ -638,8 +640,9 @@
           },
           {
             "result": {
-              "duration": 59994633,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddTariffPlan.the_user_is_displayed_as_congratulation_you_add_tariff_plan(AddTariffPlan.java:69)\r\n\tat ✽.the user is displayed as congratulation you add tariff plan(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddTariff.feature:26)\r\n",
+              "duration": 381179,
+              "status": "failed"
             },
             "line": 26,
             "name": "the user is displayed as congratulation you add tariff plan",

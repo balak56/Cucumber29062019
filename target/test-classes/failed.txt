@@ -1,1 +1,2 @@
+C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddTariff.feature:16:17:20
 C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:11:20
