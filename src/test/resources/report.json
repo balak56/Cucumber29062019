@@ -1,0 +1,681 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4245063625,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in telecom page",
+            "match": {
+              "location": "AddCustomerSteps.the_user_is_in_telecom_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2971304722,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user click on add customer",
+            "match": {
+              "location": "AddCustomerSteps.the_user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3169341914,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test",
+        "description": "",
+        "id": "title-of-your-feature;test",
+        "after": [
+          {
+            "result": {
+              "duration": 649614219,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_the_details(AddCustomerSteps.java:40)\r\n\tat ✽.The user is filling all the details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:13)\r\n",
+              "duration": 433360826,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "The user is filling all the details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_is_filling_all_the_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bala",
+                  "Krishnan",
+                  "balakrishnan@gmail.com",
+                  "Chennai",
+                  "9874568521"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10931,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "AddCustomerSteps.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5994,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The user should see the customer id",
+            "match": {
+              "location": "AddCustomerSteps.the_user_should_see_the_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Customer"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5598053836,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in telecom page",
+            "match": {
+              "location": "AddCustomerSteps.the_user_is_in_telecom_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2288196106,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user click on add customer",
+            "match": {
+              "location": "AddCustomerSteps.the_user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2201936433,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "New",
+        "description": "",
+        "id": "title-of-your-feature;new",
+        "after": [
+          {
+            "result": {
+              "duration": 683492264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.stepdefinition.AddCustomerSteps.the_user_is_filling_all_details(AddCustomerSteps.java:49)\r\n\tat ✽.The user is filling all details(C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature:21)\r\n",
+              "duration": 1957378,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "The user is filling all details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_is_filling_all_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "Bala"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "Krishnan"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "balakrishnan@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "Chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneno",
+                  "9874568521"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8110,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "AddCustomerSteps.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7053,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "The user should see the customer id",
+            "match": {
+              "location": "AddCustomerSteps.the_user_should_see_the_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Customer"
+          },
+          {
+            "name": "@new"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@Customer",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2248940297,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Main",
+        "description": "",
+        "id": "title-of-your-feature;main;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 599496745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6465537492,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The User is in Telecom Page",
+            "match": {
+              "location": "AddTariffPlan.the_User_is_in_Telecom_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2761389622,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user click on add tariff plan",
+            "match": {
+              "location": "AddTariffPlan.the_user_click_on_add_tariff_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 500138402,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user fill all the details\"500\",\"1500\",\"100\",\"50\",\"2\",\"12\",\"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1500\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"50\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 62
+                }
+              ],
+              "location": "AddTariffPlan.the_user_fill_all_the_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1986461618,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on submit button",
+            "match": {
+              "location": "AddTariffPlan.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53518467,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is displayed as congratulation you add tariff plan",
+            "match": {
+              "location": "AddTariffPlan.the_user_is_displayed_as_congratulation_you_add_tariff_plan()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tariff"
+          },
+          {
+            "name": "@tariffmain"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2279351762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Main",
+        "description": "",
+        "id": "title-of-your-feature;main;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 624266336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6557594897,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The User is in Telecom Page",
+            "match": {
+              "location": "AddTariffPlan.the_User_is_in_Telecom_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3327230471,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user click on add tariff plan",
+            "match": {
+              "location": "AddTariffPlan.the_user_click_on_add_tariff_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588644600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user fill all the details\"401\",\"1250\",\"150\",\"100\",\"3\",\"15\",\"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"401\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1250\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"150\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"15\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 63
+                }
+              ],
+              "location": "AddTariffPlan.the_user_fill_all_the_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1528258914,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on submit button",
+            "match": {
+              "location": "AddTariffPlan.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84969800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is displayed as congratulation you add tariff plan",
+            "match": {
+              "location": "AddTariffPlan.the_user_is_displayed_as_congratulation_you_add_tariff_plan()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tariff"
+          },
+          {
+            "name": "@tariffmain"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2349090970,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Sub",
+        "description": "",
+        "id": "title-of-your-feature;sub",
+        "after": [
+          {
+            "result": {
+              "duration": 558644991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7087002638,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The User is in Telecom Page",
+            "match": {
+              "location": "AddTariffPlan.the_User_is_in_Telecom_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2507510922,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user click on add tariff plan",
+            "match": {
+              "location": "AddTariffPlan.the_user_click_on_add_tariff_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461733459,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user fill all details in list",
+            "match": {
+              "location": "AddTariffPlan.the_user_fill_all_details_in_list(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "601",
+                  "1750",
+                  "150",
+                  "60",
+                  "2",
+                  "12",
+                  "5"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4230721628,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click on submit button",
+            "match": {
+              "location": "AddTariffPlan.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59994633,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user is displayed as congratulation you add tariff plan",
+            "match": {
+              "location": "AddTariffPlan.the_user_is_displayed_as_congratulation_you_add_tariff_plan()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tariff"
+          },
+          {
+            "name": "@subtariff"
+          },
+          {
+            "name": "@tariffmain"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/93ksr/eclipse-workspace/Bala/Cucumber1/src/test/resources/Features/AddTariff.feature",
+    "tags": [
+      {
+        "name": "@tariff",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
